@@ -2054,3 +2054,26 @@ article.active {
   }
 }
 
+/* ===== CLEAN MOBILE NAV FIX ===== */
+@media (max-width: 1023px) {
+
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+
+  .main-content,
+  .sidebar,
+  .top-controls {
+    position: relative;
+    z-index: 1;
+  }
+
+}
+
+body {
+  padding-bottom: 90px;
+}
