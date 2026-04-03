@@ -2077,3 +2077,25 @@ article.active {
 body {
   padding-bottom: 90px;
 }
+
+/* remove mobile tap highlight */
+button,
+a,
+.navbar-link,
+.lang-btn,
+.theme-btn {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* optional: also remove blue focus box on mobile tap */
+button:focus,
+a:focus,
+.navbar-link:focus,
+.lang-btn:focus,
+.theme-btn:focus {
+  outline: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
