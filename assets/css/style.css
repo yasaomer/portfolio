@@ -2095,7 +2095,3 @@ a:focus,
 .theme-btn:focus {
   outline: none;
 }
-
-* {
-  -webkit-tap-highlight-color: transparent;
-}
