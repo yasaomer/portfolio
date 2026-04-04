@@ -2097,7 +2097,7 @@ a:focus,
 }
 
 .divider {
-  width: 999px;
+  width: 560px;
   height: 4px;
   background: #facc15; /* yellow */
   margin: 20px auto;
@@ -2107,7 +2107,7 @@ a:focus,
 
 @media (max-width: 768px) {
   .divider {
-    width: 999px;
+    width: 385px;
     height: 3px;
     margin: 16px auto;
     box-shadow: 0 0 6px rgba(250, 204, 21, 0.5);
