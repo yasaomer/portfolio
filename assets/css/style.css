@@ -2107,7 +2107,7 @@ a:focus,
 
 @media (max-width: 768px) {
   .divider {
-    width: 55px;
+    width: 385px;
     height: 3px;
     margin: 16px auto;
     box-shadow: 0 0 6px rgba(250, 204, 21, 0.5);
