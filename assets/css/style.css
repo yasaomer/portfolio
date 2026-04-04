@@ -2099,7 +2099,17 @@ a:focus,
 .divider {
   width: 80px;
   height: 4px;
-  background: #FFD700; /* yellow */
+  background: #facc15; /* yellow */
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: 999px;
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.7);
+}
+
+@media (max-width: 768px) {
+  .divider {
+    width: 55px;
+    height: 3px;
+    margin: 16px auto;
+    box-shadow: 0 0 6px rgba(250, 204, 21, 0.5);
+  }
 }
