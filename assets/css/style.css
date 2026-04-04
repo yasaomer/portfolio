@@ -2095,3 +2095,11 @@ a:focus,
 .theme-btn:focus {
   outline: none;
 }
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: #FFD700; /* yellow */
+  margin: 20px auto;
+  border-radius: 10px;
+}
