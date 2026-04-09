@@ -2106,22 +2106,59 @@ a:focus,
   }
 }
 
-/* ===== DOWNLOAD CV BUTTON ===== */
+/* ===== DOWNLOAD CV BUTTON (FINAL) ===== */
 
 .download-cv-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
   padding: 8px 14px;
   border: 1.5px solid var(--orange-yellow-crayola);
   border-radius: 10px;
+
   color: var(--orange-yellow-crayola);
   font-size: var(--fs-8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-weight: var(--fw-500);
+
   transition: 0.25s ease;
   white-space: nowrap;
 }
 
+/* icon size fix */
+.download-cv-btn ion-icon {
+  font-size: 18px; /* bigger icon */
+}
+
+/* hover */
 .download-cv-btn:hover {
   background: var(--orange-yellow-crayola);
   color: var(--smoky-black);
+  transform: translateY(-1px);
+}
+
+/* =========================
+   MOBILE VERSION
+========================= */
+
+@media (max-width: 580px) {
+
+  .download-cv-btn {
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 0; /* hide text */
+  }
+
+  .download-cv-btn span {
+    display: none;
+  }
+
+  .download-cv-btn ion-icon {
+    font-size: 20px; /* bigger for mobile */
+  }
+
+.download-cv-btn:hover {
+  box-shadow: 0 0 10px rgba(255, 200, 0, 0.4);
+}
+
 }
