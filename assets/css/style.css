@@ -2127,8 +2127,8 @@ a:focus,
 
 /* icon size fix */
 .download-cv-btn ion-icon {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   font-size: 20px; /* backup */
 }
 
@@ -2156,8 +2156,8 @@ a:focus,
   }
 
   .download-cv-btn ion-icon {
-    width: 22px;
-    height: 22px;
+    width: 44px;
+    height: 44px;
   }
 
 .download-cv-btn:hover {
